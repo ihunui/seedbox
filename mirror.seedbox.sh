@@ -1,12 +1,10 @@
 #!/bin/bash
 
-SBU="ihunui"
-SBN="ihunui.hera.usbx.me"
+source ../.env
+
 SBF="~/files/@unpack"
 MOUNT="/mnt/titanshared"
 SHARE=//titan/shared
-FSU=cam
-FSP=sutv8b4t
 TESTFILE=checkfile.txt
 
 TARGET="/mmedia/@inbox"
@@ -14,9 +12,6 @@ DESTINATION="/mmedia/@inbox/@unpack"
 TV="/mmedia/tv"
 MOVIES="/mmedia/movies"
 
-USR="xbmcuser"
-PAS="cmbxresu"
-HST="192.168.185.33"
 IFS='
 '
 
